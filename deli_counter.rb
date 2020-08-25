@@ -1,6 +1,7 @@
 # Write your code here.
 katz_deli = []
 
+<<<<<<< HEAD
 def line(x)
   line_array = []
   if x.length == 0
@@ -24,5 +25,12 @@ def now_serving(katz_deli)
   else
     puts "Currently serving #{katz_deli[0]}."
     katz_deli.shift
+=======
+def line(katz_deli)
+  if katz_deli.length == 1
+    puts katz_deli
+  else
+    puts "The line is currently empty."
+>>>>>>> 5d46ecd4c07a63f8a3c1769460a5b43a0ac813a6
   end
 end
